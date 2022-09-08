@@ -16,3 +16,5 @@ The steps we are going to carry out are as follows:
 *Classify ECG signals between myocardial infarction and control patients, developing a classification method and taking advantage of the 15 leads integrated into the record. The implemented solution aims to use Fully connected neuronal networks (NN) to solve the classification task.
 
 * The results after training with 448 records and each one with 15 leads and 32000 samples are 91% accurate. Spite of the results showed future lines are proposed for the improvement of the task.
+
+The solution was fully developed on Google Colab.
