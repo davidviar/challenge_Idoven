@@ -17,6 +17,10 @@ The steps we are going to carry out are as follows:
 
 * The results after training with 448 records and each one with 15 leads and 32000 samples are 91% accurate. Spite of the results showed future lines are proposed for the improvement of the task.
 
+---------
+
+Update out-of-date. I upgraded the Neuronal Network adding Convolutions and custom layers, i.e RESNET blocks. This upgrade increases the accuracy of the CNN and reduce the loss. A cross-validation method is needed to obtain a mean and deviation of a set of trainings.
+
 3. Lessons learned
 
 There are different approaches when we work with ECG signals that open up the possibility to solve the problems from different points of view. In this solution, we applied Deep Learning algorithms for the compound of the 15 leads giving as good results as machine learning techniques. This opens up the possibility to treat the signals as 2D images, allowing us to integrate powerful algorithms. 
